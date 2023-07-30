@@ -16,7 +16,7 @@
         <h2 class="title">요청 정보 및 헤더 정보 출력하기</h2>
         <hr>
         <ul class="list">
-            <li><span>메시지</span> : <strong><%="msg" %></strong></li>
+            <li><span>메시지</span> : <strong><%=msg %></strong></li>
             <li><span>프로토콜</span> : <strong><%=request.getProtocol() %></strong></li>
             <li><span>요청된 서버 이름</span> : <strong><%=request.getServerName() %></strong></li>
             <li><span>요청방식</span> : <strong><%=request.getMethod() %></strong></li>
